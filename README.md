@@ -51,4 +51,31 @@ The Pothole Detection System is a convolutional neural network (CNN) designed to
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/pothole-detection-system.git
+   git clone https://github.com/padhisneha/potholedetectionusingcnn.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd potholedetectionusingcnn
+
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+
+## Usage
+1. Prepare your dataset with dashcam footage images.
+2. Preprocess the images (resizing and normalization).
+3. Train the model: Open 'sneha-anushka.ipynb' in Jupyter Notebook and run the cells to train the model.
+4. Use the trained model for real-time detection:
+   ```bash
+   python project.py
+   python gui.py
+
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+
+## Contact
+For any questions or suggestions, feel free to open an issue or contact me at sneha.padhi0408@gmail.com.
+
